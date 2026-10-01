@@ -295,6 +295,3 @@ Op: x
 Closing
 ```
 
-10. LegoHouse by Sheeran #0
-Op: x
-Closing
