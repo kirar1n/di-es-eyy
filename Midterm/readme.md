@@ -2,9 +2,9 @@
 
 - Singly LL - flip
 - Stack Palindrome
-- Stack postfix
+- Stack prefix
 - Circular LL
 - Doubly LL combine 
 - Doubly LL - insertion
-- Spotify Doubly LL
+- Doubly LL - music
 - Arraylist removeAll
