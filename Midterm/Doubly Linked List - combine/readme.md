@@ -9,7 +9,7 @@ If this linked list contains `10 <-> 20 <-> 30 <-> 40` and the parameter `Doubly
 
 ### **Requirements:**
 * The parameter `DoublyLL` should be **reset** to not contain anything and its `size` set back to `0`.
-* This operation must run in **$\mathcal{O}(1)$** time.
+* This operation must run in O(1) time.
 * You are **not** allowed to create new nodes; you are only to connect the existing nodes/pointers of the lists.
 
 ---
