@@ -49,6 +49,31 @@ int main() {
 
     // Step 6: When loop is done, output the answer
     cout << "Answer is " << stack->pop() << endl;
+}
 
+int postfix_main() {
+    Stack* stack = new ArrayStack();
+    string input;
+    do {
+        cout << "Enter: ";
+        cin >> input;
+        int num;
+        int a, b;
+        switch (input[0]) {
+            case '+':
+                a = stack->pop();
+                b = stack->pop();
+                stack->push(a + b);
+                break;
+                // add more cases for operations here
+            case 'x':
+                cout << "Answer is " << stack->pop() << endl;
+                break;
+            default: // number
+                num = stoi(input);
+                stack->push(num);
+                break;
+        }
+    } while (input != "x");
     return 0;
 }
