@@ -4,7 +4,7 @@
 
 Prefix expressions are mathematical expressions derived from expression trees that are obtained using **pre-order traversal**.
  
-### **Evaluation Algorithm**
+
 In order to evaluate a prefix expression, perform the following steps:
 1. Read the entire expression until the last symbol. **Start scanning from the last symbol to the first** (right to left).
 2. If the current symbol is an **operand** (e.g., numerical value), push it onto a stack.
