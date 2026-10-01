@@ -12,8 +12,7 @@ In order to evaluate a prefix expression, perform the following steps:
 4. Evaluate the operation `a op b`.
 5. Push the result back onto the stack.
 6. Repeat the above steps until the start of the expression is reached.
-
-At the end, the stack should contain only one number, which is the result of the entire prefix expression. This will be printed when the user exits the program via the `'x'` input.
+7. At the end, the stack should contain only one number, which is the result of the entire prefix expression. This will be printed when the user exits the program via the `'x'` input.
  
 > **Note:** In the `main.cpp` file, the code is currently structured to handle postfix expressions as it handles operations.
 
