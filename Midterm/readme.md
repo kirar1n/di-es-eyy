@@ -2,7 +2,7 @@
 
 - Singly LL - flip
 - Stack Palindrome
-- Stack prefix
+- Stack Prefix Expressions
 - Circular LL
 - Doubly LL combine 
 - Doubly LL - insertion
