@@ -108,6 +108,9 @@ Song Count: 10
 7. LoveMeHarder by Grande, Weekend #0
 8. WeDontTalkAnymore by Puth, Gomez #0
 9. Run by Swift, Sheeran #0
+10. LegoHouse by Sheeran #0
+Op: x
+Closing
 ```
 ### **Sample Output 2**
 ```text
