@@ -8,7 +8,7 @@ int main() {
     int num, pos;
     do {
         cout << "Op: ";
-        cin >> ch;
+        cin >> ch;  
         switch (ch) {
             case 'a':
                 cin >> num;
