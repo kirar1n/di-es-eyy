@@ -28,10 +28,8 @@ The Circular Linked List only has a reference to its **tail** and the **size** o
  
 *For all the above methods, you may utilize existing methods for your implementation.*
 
-### **Sample Outputs**
-
+### **Sample Output 1**
 ```text
-Sample Output 1
 Op: p
 Size: 0
 Empty
@@ -60,8 +58,10 @@ Size: 5
 1->3->5->7->9->1
 Op: x
 Exiting
+```
 
-Sample Output 2
+### **Sample Output 2**
+```text
 Op: f 8
 Op: p
 Size: 1
@@ -105,61 +105,4 @@ Size: 5
 6->7->8->4->5->6
 Op: x
 Exiting
-
-Sample Output 3
-Op: f 11
-Op: f 9
-Op: f 7
-Op: f 5
-Op: p
-Size: 4
-5->7->9->11->5
-Op: O
-Op: p
-Size: 4
-7->9->11->5->7
-Op: O
-Op: p
-Size: 4
-9->11->5->7->9
-Op: O
-Op: p
-Size: 4
-11->5->7->9->11
-Op: O
-Op: p
-Size: 4
-5->7->9->11->5
-Op: O
-Op: p
-Size: 4
-7->9->11->5->7
-Op: f 6
-Op: p
-Size: 5
-6->7->9->11->5->6
-Op: O
-Op: O
-Op: p
-Size: 5
-9->11->5->6->7->9
-Op: f 8
-Op: p
-Size: 6
-8->9->11->5->6->7->8
-Op: p
-Size: 6
-8->9->11->5->6->7->8
-Op: O
-Op: O
-Op: O
-Op: f 13
-Op: p
-Size: 7
-13->5->6->7->8->9->11->13
-Op: O
-Op: p
-Size: 7
-5->6->7->8->9->11->13->5
-Op: x
-Exiting
+```
